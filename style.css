@@ -35,7 +35,7 @@ a {
     z-index: 3;
 }
 .tech-item h3 {
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 .carousel-control-next, .carousel-control-prev {
     z-index: 55;
