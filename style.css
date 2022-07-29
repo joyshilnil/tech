@@ -1,0 +1,42 @@
+.tech-carousel {
+    height: 100vh;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.carousel img {
+    height: 100vh;
+}
+.carousel:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #0e0d0d7a;
+    z-index: 1;
+    border-radius: 13px;
+}
+
+.tech-item.carousel-caption {
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+.tech-item h3 {
+    font-size: 60px;
+}
+.carousel-control-next, .carousel-control-prev {
+    z-index: 55;
+}
